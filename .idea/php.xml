@@ -111,6 +111,7 @@
       <path value="$PROJECT_DIR$/oefenen1/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/oefenen1/vendor/laravel/sail" />
       <path value="$PROJECT_DIR$/oefenen1/vendor/laravel/sanctum" />
+      <path value="$PROJECT_DIR$/oefenen1/vendor/laravel/breeze" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
