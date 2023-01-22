@@ -21,6 +21,7 @@
                     </span>
                 </div>
             @endforeach
+                {{ $notes->links() }}
 
         </div>
     </div>
