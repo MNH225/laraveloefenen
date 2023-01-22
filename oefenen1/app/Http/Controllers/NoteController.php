@@ -15,9 +15,9 @@ class NoteController extends Controller
      */
     public function index()
     {
-        $id = Auth::user()->id;
-        $notes = Note::where('user_id',$id)->get();
-        dd($notes);
+        $notes = Note::where('user_id', Auth::user()->id)->latest('updated_at')->get();
+        return view('notes.index')->with('notes', $notes);
+
 
     }
 
